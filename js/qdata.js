@@ -41,7 +41,6 @@ var questions = {
 		{ text: 'If I should need to move, I can be pretty sure of renting or purchasing housing in a neighborhood which I can afford and in which I would want to live.'},
 		{ text: 'I can be pretty sure that my neighbors in such a location will be neutral or pleasant towards me (and my family).'},
 		{ text: 'I can go shopping alone (mall or the corner store) and be fairly well-assured that I will not be followed or harassed by security or store clerks.'},
-		{ text: ''}
 	],
 	gender:[
 		{ text: 'I have never been denied an opportunity because of my gender.'},

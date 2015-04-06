@@ -2,24 +2,30 @@
 <html lang="en">
 
 <head>
-	<link rel="css/stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/privme.css">
 </head>
 
 <body>
-<h1>BOOTSTRAP</h1>
+<div class='container'>
+	<h1>BOOTSTRAP</h1>
+</div>
 <div class="container" id="questions_container"></div>
+<div class="container">
+	<button class="btn btn-primary" id="btnSubmit">How Priviliaged Am I?</button>
+</div>
 </body>
 
 <script type="text/template" id="question_template">
-	<div class="question_container" id="<%= model.get('cid') %>">
-		<p><%= model.get('text') %></p>
+	<div class="question_container" id="<%= model.get('id') %>">
+		 <input type="checkbox" class="privCheckBox"><%= model.get('text') %></input>
 	</div>
 </script>
 
 <script type="text/javascript" src="js/lib/jquery.min.js"></script>
 <script type="text/javascript" src="js/lib/underscore-min.js"></script>
 <script type="text/javascript" src="js/lib/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/lib/backbone.min.js"></script>
+<script type="text/javascript" src="js/lib/backbone.js"></script>
 <script type="text/javascript" src="js/qdata.js"></script>
 <script type="text/javascript" src="js/privme.js"></script>
 
