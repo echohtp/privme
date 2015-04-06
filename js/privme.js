@@ -46,6 +46,7 @@ $(function(){
 	$('#btnSubmit').click(function(e){
 		var resultCount = $('.privCheckBox:checkbox:checked').length
 		console.log('You checked ', resultCount, ' out of ', questionCollection.length);
+		alert('You checked ' + resultCount +  ' out of ' + questionCollection.length);
 	});
 
 });
